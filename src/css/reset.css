@@ -1,0 +1,21 @@
+/*
+    reset some general settings like margin, padding, outline, ect.
+*/
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body, html, figure {
+    margin: 0;
+    padding: 0;
+}
+input, input:focus {
+    outline: 0;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+::selection {
+    background-color: var(--secondary);
+    color: var(--white);
+}
