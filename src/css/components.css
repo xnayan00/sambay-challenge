@@ -1,0 +1,38 @@
+/*
+    header component
+*/
+.c-header-search {
+    width: 65%;
+}
+.c-header-brand {
+    max-width: 25%;
+}
+.c-search-input {
+    border: 0;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 7px;
+    width: 100%;
+}
+.c-icon-button {
+    background: none;
+    border: 0;
+    border-radius: 25px;
+    cursor: pointer;
+    height: 50px;
+    margin: 0 5px;
+    transition: background 0.1s;
+    width: 50px;
+}
+.c-icon-button:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+.c-avatar {
+    background: url('../assets/avatar.jpg') no-repeat center center;
+    background-size: cover;
+    border-radius: 25px;
+    cursor: pointer;
+    height: 50px;
+    margin-left: 5px;
+    width: 50px;
+}
