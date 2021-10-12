@@ -1,0 +1,19 @@
+.t-title {
+    color: var(--gray);
+    font-size: 2rem;
+    font-weight: 500;
+}
+.t-subtitle {
+    color: var(--primary);
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.t-body {
+    color: var(--dark-gray);
+    font-size: 0.8rem;
+}
+.t-caption {
+    color: var(--gray);
+    font-size: 0.8rem;
+    font-style: italic;
+}

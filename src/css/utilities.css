@@ -1,15 +1,37 @@
+/*
+    borders
+*/
 .u-border {
     border: 1px solid red;
 }
+
+/*
+    alignments
+*/
 .u-align-flex-end {
     justify-content: end;
 }
 .u-justify-content-between {
     justify-content: space-between;
 }
-.u-color-white {
-    color: var(--white);
+.u-justify-content-around {
+    justify-content: space-around;
 }
+
+/*
+    spacings
+*/
 .u-mt-10 {
     margin-top: 10px;
+}
+
+/*
+    modifiers
+*/
+.u-container-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.u-color-white {
+    color: var(--white);
 }

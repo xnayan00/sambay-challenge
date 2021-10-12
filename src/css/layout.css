@@ -1,13 +1,17 @@
+/*
+    global container
+*/
 .l-container {
-    display: flex;
     margin: 0 auto;
     width: 90%;
 }
+/*
+    header layout
+*/
 .l-header {
     align-items: center;
     background-color: var(--primary);
     display: flex;
-    height: 60px;
     flex-wrap: wrap;
     padding: 10px 0;
 }
@@ -16,4 +20,14 @@
     display: flex;
     flex-wrap: wrap;
     width: 50%;
+}
+/*
+    card layout
+*/
+.l-card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.l-card-section {
+    margin: 70px 0;
 }

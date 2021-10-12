@@ -1,0 +1,15 @@
+@media (max-width: 400px) {
+    :root, html, body {
+        font-size: 12px;
+    }
+    .c-avatar, .c-icon-button {
+        display: none;
+    }
+    .l-header-section {
+        justify-content: center;
+        width: 100%;
+    }
+    .c-header-search {
+        margin: 10px 0;
+    }
+}
