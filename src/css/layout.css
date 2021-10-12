@@ -5,6 +5,7 @@
     margin: 0 auto;
     width: 90%;
 }
+
 /*
     header layout
 */
@@ -21,6 +22,7 @@
     flex-wrap: wrap;
     width: 50%;
 }
+
 /*
     card layout
 */
@@ -30,4 +32,11 @@
 }
 .l-card-section {
     margin: 70px 0;
+}
+
+/*
+    card layout
+*/
+.l-product-container {
+    width: 45%;
 }
