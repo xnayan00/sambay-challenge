@@ -5,21 +5,25 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBell } from '@fortawesome/free-solid-svg-icons'
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 
+import { BrowserRouter as Router,  Link } from "react-router-dom"
+
 export default function Header() {
     return (
         <header className="l-header">
             <nav className="l-container u-container-flex">
+                <Router>
                 <section className="l-header-section u-justify-content-between">
-                    <a className="c-header-brand" href="#">
+                    <Link to="/" className="c-header-brand" href="/">
                         <figure>
                             <img src={Logo} alt="logotipo Sambay" width="100%"/>
                         </figure>
-                    </a>
+                    </Link>
                     <div className="c-header-search">
                         <span></span>
                         <input className="c-search-input" type="text" placeholder="Busque aqui seu produto"/>
                     </div>
                 </section>
+                </Router>
                 <section className="l-header-section u-align-flex-end">
                     <button className="c-icon-button">
                         <FontAwesomeIcon
