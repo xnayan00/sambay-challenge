@@ -1,15 +1,28 @@
-@media (max-width: 400px) {
+@media (min-width: 500px) {
+    .c-mobile-nav {
+        display: none;
+    }
+}
+@media (max-width: 500px) {
     :root, html, body {
         font-size: 12px;
-    }
-    .c-avatar, .c-icon-button {
-        display: none;
     }
     .l-header-section {
         justify-content: center;
         width: 100%;
     }
+    .c-avatar, .c-icon-button {
+        display: none;
+    }
     .c-header-search {
         margin: 10px 0;
+    }
+    .c-product-details {
+        margin-top: 20px;
+    }
+}
+@media (max-width: 800px) {
+    .l-product-container {
+        width: 100%;
     }
 }

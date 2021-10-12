@@ -11,9 +11,13 @@ body, html, figure {
 input, input:focus {
     outline: 0;
 }
-p {
+p, h2, ul {
     margin: 0;
     padding: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
 }
 ::selection {
     background-color: var(--secondary);
