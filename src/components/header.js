@@ -8,18 +8,19 @@ import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 export default function Header() {
     return (
         <header className="l-header">
-            <nav className="l-container">
-                <article className="l-header-section u-justify-content-between">
+            <nav className="l-container u-container-flex">
+                <section className="l-header-section u-justify-content-between">
                     <a className="c-header-brand" href="#">
                         <figure>
                             <img src={Logo} alt="logotipo Sambay" width="100%"/>
                         </figure>
                     </a>
                     <div className="c-header-search">
+                        <span></span>
                         <input className="c-search-input" type="text" placeholder="Busque aqui seu produto"/>
                     </div>
-                </article>
-                <article className="l-header-section u-align-flex-end">
+                </section>
+                <section className="l-header-section u-align-flex-end">
                     <button className="c-icon-button">
                         <FontAwesomeIcon
                             icon={faBell}
@@ -37,7 +38,7 @@ export default function Header() {
                     <div className="c-avatar">
                         {/* avatar styled with css */}
                     </div>
-                </article>
+                </section>
             </nav>
         </header>
     )

@@ -3,16 +3,26 @@
 */
 .c-header-search {
     width: 65%;
+    min-width: 300px;
 }
 .c-header-brand {
     max-width: 25%;
+    min-width: 120px;
 }
 .c-search-input {
     border: 0;
     border-radius: 5px;
     box-sizing: border-box;
-    padding: 7px;
+    padding: 7px 7px 7px 30px;
     width: 100%;
+}
+.c-header-search::before {
+    content: url('../assets/search.svg');
+    height: 15px;
+    opacity: 0.3;
+    padding: 7px;
+    position: absolute;
+    width: 15px;
 }
 .c-icon-button {
     background: none;
@@ -35,4 +45,35 @@
     height: 50px;
     margin-left: 5px;
     width: 50px;
+}
+/*
+    product card
+*/
+.c-card {
+    border-radius: 7px;
+    box-sizing: border-box;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 250px;
+}
+.c-card-image {
+    height: 150px;
+    width: 100%;
+}
+.c-card-image img {
+    border-radius: 7px 7px 0 0;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.2s;
+    width: 100%;
+}
+.c-card-image img:hover {
+    cursor: pointer;
+}
+.c-card-content {
+    padding: 10px 15px;
+}
+.c-card-footer {
+    background-color: var(--success);
+    border-radius: 0 0 7px 7px;
+    padding: 0px 15px;
 }
