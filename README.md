@@ -2,7 +2,7 @@
 
 ### Production (DEMO)
 
-Link: http://45.82.72.105/teste_magazine_brindes/
+Link: 
 
 ## The challenge
 
