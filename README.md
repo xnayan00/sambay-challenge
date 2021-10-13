@@ -2,7 +2,7 @@
 
 ### Production (DEMO)
 
-Link: 
+Link: http://45.82.72.105/sambay-challenge
 
 ## The challenge
 
