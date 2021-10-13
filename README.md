@@ -16,6 +16,11 @@ Link:
 * React.js
 * React Router Dom
 
+## Features
+- List all products
+- View product details
+- Mobile version
+
 ## Requirements
     Node Version >= 16.10
 
