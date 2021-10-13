@@ -1,4 +1,4 @@
-### Smabay Express Challenge
+# Sambay Express Challenge
 
 ### Production (DEMO)
 
