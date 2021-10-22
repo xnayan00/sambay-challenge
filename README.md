@@ -8,7 +8,7 @@ Link: http://45.82.72.105/sambay-challenge
 
   Create 2 pages of Sambay Express website using React.js with routes.
 
-## Used Tecnologies
+## Used Technologies
 * CSS
 * Namespaces CSS prefixes
 * Component-driven CSS
