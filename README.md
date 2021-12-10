@@ -1,9 +1,5 @@
 # Sambay Express Challenge
 
-### Production (DEMO)
-
-Link: http://45.82.72.105/sambay-challenge
-
 ## The challenge
 
   Create 2 pages of Sambay Express website using React.js with routes.
